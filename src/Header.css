@@ -1,5 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+
+}
 .header_logo{
-    width: 25px;
-    height: 30px;
-    margin-top: 20px;
+    object-fit: contain;
+    height: 40px;
+    margin-left: 50vw;
+    margin-top: 0vw;
+}
+.header_icon{
+    /* margin-top: 0; */
+    /* height: 120px; */
+    padding: 20px;
+}
+#forum{
+    margin-left: 100vw;
+    margin-top: 0px;
+    /* height: 150%; */
+    height: 40px;
 }
